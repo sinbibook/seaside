@@ -404,6 +404,7 @@ E2 도 같은 처리를 해 뒀다. 스타일 규칙은 **494개 전부 이식�
 | `data-booking-link`                   | 헤더 예약 버튼 / RESERVE `depth1_a` / `예약하기` | `property.realtimeBookingId`                   | URL 형태일 때만 `href` 주입, 아니면 `#!` 유지                                          |
 | `data-ybs-button` / `data-ybs-wrap`   | `.btn_reserve` (감싼 `span.ybs_wrap`)            | `property.ybsId`                               | 없으면 `span` 째 숨김. 링크는 `https://www.yapen.co.kr/external?ypIdx={ybsId}`         |
 | `data-menu-id="layout-map"`           | ROOMS `미리보기` li                              | `pages.layoutMap.sections[0].enabled`          | `false` 면 li 숨김                                                                     |
+| `data-rooms-link`                     | 대메뉴 ROOMS 링크                                | `pages.layoutMap.sections[0].enabled`          | 켜짐 → `layout-map.html` / 꺼짐 → 첫 객실 상세                                          |
 | `data-travel-menu`                    | TRAVEL `li` / aside 블록                         | `pages.nearbyAttractions.sections[0].enabled`  | `false` 면 숨김                                                                        |
 | `data-homepage-socialLinks-blog`      | 헤더 `.hd_sns` / aside `.aside_sns` 네이버 버튼  | `homepage.socialLinks.blog`                    | 없으면(null·빈 문자열·공백·키 없음) 숨김. 둘 다 없으면 래퍼(`data-social-wrap`)째 숨김 |
 | `data-homepage-socialLinks-instagram` | 헤더 `.hd_sns` / aside `.aside_sns` 인스타 버튼  | `homepage.socialLinks.instagram`               | 위와 같음                                                                              |
@@ -872,6 +873,17 @@ if (!section || section.enabled === false) {
 
 A / B / C 템플릿과 같은 패턴이다. 헤더의 `미리보기` li 도 `header-footer-mapper` 가
 같은 기준(`pages.layoutMap.sections[0].enabled`)으로 숨긴다.
+
+**대메뉴 `ROOMS`(`[data-rooms-link]`)는 이 값에 따라 이동처가 갈린다.** — `getRoomsEntryLink()`
+
+| `layoutMap` | ROOMS 클릭 시                                     |
+| ----------- | ------------------------------------------------- |
+| 켜짐        | `layout-map.html` (객실 배치도)                   |
+| 꺼짐        | 첫 번째 객실 상세 (헤더 객실 메뉴 첫 항목과 같음) |
+
+꺼진 상태에서 그대로 두면 `layout-map.html` 이 404 로 튕긴다. 판정은 이 페이지의 404 기준과 같은
+`isLayoutMapEnabled()`(섹션 없음 / `enabled:false` → 꺼짐)를 쓴다. `room.html` 의 객실 탭 첫 칸
+`미리보기` 도 꺼져 있으면 숨긴다.
 
 **백오피스 preview 에서는 리다이렉트하지 않는다.** 편집자가 이 페이지를 끈 상태에서도
 내용을 보고 다시 켤 수 있어야 하는데, 404 로 튕기면 그게 불가능하다.
