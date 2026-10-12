@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "version": "1.2.0",
-    "generatedAt": "2026-10-08T10:30:34.930685856Z",
+    "version": "1.3.0",
+    "generatedAt": "2026-10-12T08:33:18.225197476Z",
     "templateType": "trip_g",
     "propertyId": "510d6e41-6baf-4d17-a5a5-232e616c5eb8",
     "homepageId": "01a0f783-8805-7828-895e-a04bf8e0ff71"
@@ -22,7 +22,7 @@
     "checkin": "15:00",
     "checkout": "11:00",
     "checkInOutInfo": "[입퇴실안내]\n- 입실: 15시 00분\n- 퇴실: 11시 00분\n- 입실 마감시간: 22시 00분\n※22시 이후 도착할 시에는 사전연락 바랍니다.",
-    "usageGuide": "※ 무인 운영으로 휴대폰번호 기재 필수\n※ 칫솔 및 치약 미제공, 개인 지참 필수\n※ 개별 테라스 전기그릴 외 숯불 바베큐 불가\n※ 추가인원, 바베큐 전기그릴 비용 현장 현금 결제\n※ 영유아 포함 최대인원 초과 입실 불가\n※ 애완동물 입실 불가\n\n[입퇴실안내]\n- 입실: 15시 00분\n- 퇴실: 11시 00분\n- 입실 마감시간: 22시 00분\n※22시 이후 도착할 시에는 사전연락 바랍니다.\n\n[인원추가정보]\n[연령기준]\n- 성인: 8세 이상\n- 아동: 36개월 이상~8세 미만\n- 유아: 36개월 미만\n\n[추가 요금]\n- 전객실\n- 요금: 성인 1인 20,000원, 아동 1인 20,000원, 유아 무료\n(1박기준/현장결제)\n36개월 미만 - 1명 무료 / 2명 이상 20,000원 \n37개월 ~ 성인 20,000원\n※ 단,영유아 인원수에 포함\n※ 최대인원 초과 입실불가\n\n[개별바베큐]\n- 이용 장소: 개별 테라스\n- 바베큐 형태: 전기그릴\n- 이용 요금: 10,000원 (1박기준/현장결제)\n※ 사계절 내내 프라이빗하게 이용 가능\n※ 숯불 이용 불가\n※ 103호 + 104호 동시 예약  테라스 공동 사용 가능 (단체,가족 여행객분들께 추천 합니다)\n※ 105호 + 106호 동시 예약  테라스 공동 사용 가능 (단체,가족 여행객분들께 추천 합니다)\n\n[개별수영장]\n- 이용 객실: 101호,102호\n- 온도: 냉수\n- 운영 기간: 26년 7월 1일~ 9월 13일\n- 수영장 수심: 성인 허벅지 높이\n- 이용 요금: 30,000원 (1박기준/현장결제)\n- 이용 시간: 입실 후 ~ 20:00\n- 이용 복장: 래쉬가드, 면티만 가능\n※ 성인 3인 이상 이용 시 수영장이 작을 수 있음\n※ 미온수 사용 불가\n※ 우천 시 이용 가능하나, 현장 상황에 따라 이용 불가할 수 있음\n※ 운영 기간은 조기 종료될 수 있음\n\n[편의 및 주변 시설]\n- 엘레베이터 미보유\n- 와이파이 보유\n- OTT 이용 불가\n- GS24 편의점 6분\n- 그린할인마트 7분\n- A플러스할인마트 7분\n- 세븐일레븐 7분\n\n[주차장]\n- 주차장 보유\n- 이용 요금: 무료\n- 전기차 충전기 이용 불가\n\n[교통편]\n※ 네비게이션에 아래 주소를 입력해주세요.\n- 지번 주소 : 경남 남해군 삼동면 동천리 65-2\n- 도로명 주소 : 경남 남해군 삼동면 양화금로 329-29",
+    "usageGuide": "[공지사항]\n※ 무인 운영으로 휴대폰번호 기재 필수\n※ 칫솔 및 치약 미제공, 개인 지참 필수\n※ 개별 테라스 전기그릴 외 숯불 바베큐 불가\n※ 추가인원, 바베큐 전기그릴 비용 현장 현금 결제\n※ 영유아 포함 최대인원 초과 입실 불가\n※ 애완동물 입실 불가\n\n[입퇴실안내]\n- 입실: 15시 00분\n- 퇴실: 11시 00분\n- 입실 마감시간: 22시 00분\n※22시 이후 도착할 시에는 사전연락 바랍니다.\n\n[인원추가정보]\n[연령기준]\n- 성인: 8세 이상\n- 아동: 36개월 이상~8세 미만\n- 유아: 36개월 미만\n\n[추가요금]\n- 결제방법: 후결제(현장결제)\n36개월 미만 - 1명 무료 / 2명 이상 20,000원 \n37개월 ~ 성인 20,000원\n※ 단,영유아 인원수에 포함\n※ 최대인원 초과 입실불가\n\n[개별바베큐]\n- 이용 장소: 개별 테라스\n- 바베큐 형태: 전기그릴\n- 이용 요금: 10,000원 (1박기준/현장결제)\n※ 사계절 내내 프라이빗하게 이용 가능\n※ 숯불 이용 불가\n※ 103호 + 104호 동시 예약  테라스 공동 사용 가능 (단체,가족 여행객분들께 추천 합니다)\n※ 105호 + 106호 동시 예약  테라스 공동 사용 가능 (단체,가족 여행객분들께 추천 합니다)\n\n[개별수영장]\n- 이용 객실: 101호,102호\n- 온도: 냉수\n- 운영 기간: 26년 7월 1일~ 9월 13일\n- 수영장 수심: 성인 허벅지 높이\n- 이용 요금: 30,000원 (1박기준/현장결제)\n- 이용 시간: 입실 후 ~ 20:00\n- 이용 복장: 래쉬가드, 면티만 가능\n※ 성인 3인 이상 이용 시 수영장이 작을 수 있음\n※ 미온수 사용 불가\n※ 우천 시 이용 가능하나, 현장 상황에 따라 이용 불가할 수 있음\n※ 운영 기간은 조기 종료될 수 있음\n\n[편의 및 주변 시설]\n- 엘레베이터 미보유\n- 와이파이 보유\n- OTT 이용 불가\n- GS24 편의점 6분\n- 그린할인마트 7분\n- A플러스할인마트 7분\n- 세븐일레븐 7분\n\n[주차장]\n- 주차장 보유\n- 이용 요금: 무료\n- 전기차 충전기 이용 불가\n\n[교통편]\n※ 네비게이션에 아래 주소를 입력해주세요.\n- 지번 주소 : 경남 남해군 삼동면 동천리 65-2\n- 도로명 주소 : 경남 남해군 삼동면 양화금로 329-29",
     "reservationGuide": "※ 무인 운영으로 휴대폰번호 기재 필수\n※ 칫솔 및 치약 미제공, 개인 지참 필수\n※ 개별 테라스 전기그릴 외 숯불 바베큐 불가\n※ 추가인원, 바베큐 전기그릴 비용 현장 현금 결제\n※ 영유아 포함 최대인원 초과 입실 불가\n※ 애완동물 입실 불가",
     "province": "도/시",
     "city": "시/군/구",
@@ -326,7 +326,7 @@
           {
             "id": "f7ef457f-1681-4380-91e7-66a6d13d87ea",
             "url": "https://bookingplay-media.s3.amazonaws.com/item_images/2026/07/23/AXvot9HSL2pG.jpg",
-            "sortOrder": 0,
+            "sortOrder": 1,
             "description": "",
             "isSelected": true,
             "blockId": null
@@ -336,7 +336,7 @@
           {
             "id": "b969cd3f-408b-4197-83a1-c213eaeb3452",
             "url": "https://bookingplay-media.s3.amazonaws.com/item_images/2026/07/23/6HeUg87fyIA4.jpg",
-            "sortOrder": 0,
+            "sortOrder": 2,
             "description": "",
             "isSelected": true,
             "blockId": null
@@ -344,7 +344,7 @@
           {
             "id": "93d7b2fb-742d-4992-961e-8d0462d914df",
             "url": "https://bookingplay-media.s3.amazonaws.com/item_images/2026/07/23/3ECeBQmuSApa.jpg",
-            "sortOrder": 1,
+            "sortOrder": 3,
             "description": "",
             "isSelected": true,
             "blockId": null
@@ -352,7 +352,7 @@
           {
             "id": "6997977c-c763-42ae-8348-3d60bcd75dd7",
             "url": "https://bookingplay-media.s3.amazonaws.com/item_images/2026/07/23/4PeZvI3m7tdf.jpg",
-            "sortOrder": 2,
+            "sortOrder": 4,
             "description": "",
             "isSelected": true,
             "blockId": null
@@ -360,7 +360,7 @@
           {
             "id": "ff5f2497-5f60-4d1f-a542-16835c2b4aae",
             "url": "https://bookingplay-media.s3.amazonaws.com/item_images/2026/07/23/uUa8CoJ4Mpyj.jpg",
-            "sortOrder": 3,
+            "sortOrder": 5,
             "description": "",
             "isSelected": true,
             "blockId": null
@@ -368,7 +368,7 @@
           {
             "id": "56bd1e5d-47ac-410f-9b57-44e2ccabe0ee",
             "url": "https://bookingplay-media.s3.amazonaws.com/item_images/2026/07/23/8bYPljOrDkK3.jpg",
-            "sortOrder": 4,
+            "sortOrder": 6,
             "description": "",
             "isSelected": true,
             "blockId": null
@@ -376,7 +376,7 @@
           {
             "id": "2ff6b0ff-6f1d-4dc1-8f17-f6623858f383",
             "url": "https://bookingplay-media.s3.amazonaws.com/item_images/2026/07/23/pU25aocyzDWv.jpg",
-            "sortOrder": 5,
+            "sortOrder": 7,
             "description": "",
             "isSelected": true,
             "blockId": null
@@ -384,7 +384,7 @@
           {
             "id": "1f5dc442-1994-45da-9c47-d8c6fc50705c",
             "url": "https://bookingplay-media.s3.amazonaws.com/item_images/2026/07/23/4PfceqnGFzrN.jpg",
-            "sortOrder": 6,
+            "sortOrder": 8,
             "description": "",
             "isSelected": true,
             "blockId": null
@@ -392,7 +392,7 @@
           {
             "id": "a867c901-b7f9-4c97-b738-f83300a12d38",
             "url": "https://bookingplay-media.s3.amazonaws.com/item_images/2026/07/23/JSUNxLrkaniF.jpg",
-            "sortOrder": 7,
+            "sortOrder": 9,
             "description": "",
             "isSelected": true,
             "blockId": null
